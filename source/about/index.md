@@ -9,7 +9,6 @@ title:
 
 #### 领域
 
-- Java
 - JavaScript / Node.js
 - 以及其他 Web domain相关，无论前端还是后端
 - 架构
