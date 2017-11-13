@@ -10,7 +10,7 @@ ssh-add ~/.ssh/id_rsa
 # Copy SSH config
 cp .travis/ssh_config ~/.ssh/config
 # Set Git config
-git config --global user.name "jingchaofang"
+git config --global user.name 'jingchaofang'
 git config --global user.email jing@turingca.com
 # Deploy to GitHub
 hexo deploy
