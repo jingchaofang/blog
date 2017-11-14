@@ -9,4 +9,5 @@
     <span class="power-by">
         {{ __('footer.powered', '<a class="hexo-link" href="https://hexo.io/">Hexo</a> and <a class="theme-link" href="https://github.com/henryhuang/hexo-theme-polarbearsimple">Polar Bear Simple</a>') }}
     </span>
+    <span>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></span>
 </span>
