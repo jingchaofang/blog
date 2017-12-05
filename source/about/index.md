@@ -1,8 +1,6 @@
 title: 
 ---
 
-![五阿哥和六六](http://githubimg.qiniudn.com/image/cat/twocat.png)
-
 #### 本人
 
 程序员一名。
@@ -15,6 +13,6 @@ title:
 
 #### 联系方式
 
-- GitHub：[jingchaofang](https://github.com/jingchaofang)
-- 微博：[jingchaofang](http://weibo.com/jingchaofang) 
-- 邮箱：fangjingchao#zhangyue.com
+- GitHub：github.com/jingchaofang
+- 微博：weibo.com/jingchaofang 
+- 邮箱：jing#turingca.com
