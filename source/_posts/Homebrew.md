@@ -1,10 +1,10 @@
 ---
-title: Homebrew
+title: Homebrew & Cask
 date: 2017-11-20 19:30:18
 tags:
 ---
 
-# [Site](https://brew.sh/) / [Github](https://github.com/Homebrew/brew/)
+# [Site/](https://brew.sh/)[Github](https://github.com/Homebrew/brew/)
 
 The missing package manager for macOS
 macOS 缺失的软件包管理器
@@ -130,9 +130,6 @@ The top formulae that have been installed on request (i.e. not pulled in as a de
 ### [Build Error Events](https://brew.sh/analytics/build-error/)
 
 The top formulae which have build errors. Note these also include unsupported Homebrew configurations.
-
-
-
 
 # Homebrew Cask
 
