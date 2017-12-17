@@ -4,7 +4,7 @@ date: 2017-12-15 19:27:23
 tags:
 ---
 
-# [EN/](https://eslint.org/)[CN/](https://cn.eslint.org/)[CN/](http://eslint.cn/)[Author](https://www.nczonline.net/)
+# [EN/](https://eslint.org/)[CN/](https://cn.eslint.org/)[CN/](http://eslint.cn/)[Author/](https://www.nczonline.net/)[Github](https://github.com/eslint)
 
 The pluggable linting utility for JavaScript and JSX. ESLint is an open source project originally created by Nicholas C. Zakas in June 2013. Its goal is to provide a pluggable linting utility for JavaScript.
 
@@ -181,4 +181,92 @@ Because of this line, all of the rules marked “✅” on the [rules page](http
 - Can’t find just the right rule? Make your own [custom rule](https://eslint.org/docs/developer-guide/working-with-rules).
 - Make ESLint even better by [contributing](https://eslint.org/docs/developer-guide/contributing/README).
 
+## Command Line Interface
 
+To run ESLint on Node.js, you must have npm installed. If npm is not installed, follow the instructions here [https://www.npmjs.com/](https://www.npmjs.com/)
+
+Once npm is installed, run the following
+
+```
+npm i -g eslint
+```
+
+This installs the ESLint CLI from the npm repository. To run ESLint, use the following format:
+
+```
+eslint [options] [file|dir|glob]*
+```
+
+Such as:
+
+eslint file1.js file2.js
+or:
+
+eslint lib/**
+Please note that when passing a glob as a parameter, it will be expanded by your shell. The results of the expansion can vary depending on your shell, and its configuration. If you want to use node glob syntax, you have to quote your parameter (using double quotes if you need it to run in Windows), as follows:
+```
+eslint "lib/**"
+```
+
+### Options
+
+The command line utility has several options. You can view the options by running eslint -h.
+```
+eslint [options] file.js [file.js] [dir]
+
+Basic configuration:
+  -c, --config path::String      Use configuration from this file or shareable config
+  --no-eslintrc                  Disable use of configuration from .eslintrc
+  --env [String]                 Specify environments
+  --ext [String]                 Specify JavaScript file extensions - default: .js
+  --global [String]              Define global variables
+  --parser String                Specify the parser to be used
+  --parser-options Object        Specify parser options
+
+Caching:
+  --cache                        Only check changed files - default: false
+  --cache-file path::String      Path to the cache file. Deprecated: use --cache-location - default: .eslintcache
+  --cache-location path::String  Path to the cache file or directory
+
+Specifying rules and plugins:
+  --rulesdir [path::String]      Use additional rules from this directory
+  --plugin [String]              Specify plugins
+  --rule Object                  Specify rules
+
+Ignoring files:
+  --ignore-path path::String     Specify path of ignore file
+  --no-ignore                    Disable use of ignore files and patterns
+  --ignore-pattern [String]      Pattern of files to ignore (in addition to those in .eslintignore)
+
+Using stdin:
+  --stdin                        Lint code provided on <STDIN> - default: false
+  --stdin-filename String        Specify filename to process STDIN as
+
+Handling warnings:
+  --quiet                        Report errors only - default: false
+  --max-warnings Int             Number of warnings to trigger nonzero exit code - default: -1
+
+Output:
+  -o, --output-file path::String  Specify file to write report to
+  -f, --format String            Use a specific output format - default: stylish
+  --color, --no-color            Force enabling/disabling of color
+
+Miscellaneous:
+  --init                         Run config initialization wizard - default: false
+  --fix                          Automatically fix problems
+  --fix-dry-run                  Automatically fix problems without saving the changes to the file system
+  --debug                        Output debugging information
+  -h, --help                     Show help
+  -v, --version                  Output the version number
+  --no-inline-config             Prevent comments from changing config or rules
+  --report-unused-disable-directives  Adds reported errors for unused eslint-disable directives
+  --print-config path::String    Print the configuration for the given file
+```
+
+Options that accept array values can be specified by repeating the option or with a comma-delimited list (other than --ignore-pattern which does not allow the second style).
+
+Example:
+
+eslint --ext .jsx --ext .js lib/
+
+eslint --ext .jsx,.js lib/
