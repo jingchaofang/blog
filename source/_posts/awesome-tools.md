@@ -34,8 +34,12 @@ https://www.webpagefx.com/tools/emoji-cheat-sheet/
 
 https://gitlocalize.com/
 
-## develop
+## develop workflow
 
+
+### gulp
+
+https://gulpjs.com/
 
 ### webpack
 
