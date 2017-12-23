@@ -36,10 +36,22 @@ https://gitlocalize.com/
 
 ## develop workflow
 
+### node
+
+https://nodejs.org/en/
+https://nodejs.org/zh-cn/
+http://nodejs.cn/
+http://www.runoob.com/nodejs/nodejs-tutorial.html
+
+### rollup
+
+https://rollupjs.org/
+https://rollupjs.org/zh
 
 ### gulp
 
 https://gulpjs.com/
+https://www.gulpjs.com.cn/
 
 ### webpack
 
