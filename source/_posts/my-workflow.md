@@ -56,6 +56,29 @@ subl . -a
 [具体配置说明](https://www.sublimetext.com/docs/3/osx_command_line.html)
 
 
+# Git
+
+https://git-scm.com/
+
+### .gitignore
+
+你想要忽略的文件或者目录
+
+### .gitattributes
+
+[用于设置文件的对比方式，常用非文本文件](https://git-scm.com/book/zh/v1/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git%E5%B1%9E%E6%80%A7)
+
+### linguist
+
+[linguist](https://github.com/github/linguist)
+
+### LICENSE
+
+[license list](http://www.gnu.org/licenses/license-list.html)
+
+[choose a license](https://choosealicense.com/)
+
+
 # GNU工具
 
 ## Pc
@@ -172,6 +195,8 @@ trim_trailing_whitespace = true    // 是否删除行尾的空格
 # Continuous Integration 持续集成
 
 [Travis CI](https://travis-ci.org/)
+
+[Circle CI](http://circleci.com/)
 
 
 
