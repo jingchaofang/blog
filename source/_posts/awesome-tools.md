@@ -40,6 +40,12 @@ https://lavas.baidu.com/
 
 https://www.webpagefx.com/tools/emoji-cheat-sheet/
 
+### json
+
+http://www.json.org/
+
+http://www.json.org/json-zh.html
+
 ### translate
 
 https://gitlocalize.com/ GoogleWebFundamentals通过此工具协助翻译
