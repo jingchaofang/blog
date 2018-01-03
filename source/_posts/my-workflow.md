@@ -55,6 +55,9 @@ subl . -a
 
 [具体配置说明](https://www.sublimetext.com/docs/3/osx_command_line.html)
 
+#### sublimecodeintel
+
+http://www.sublimecodeintel.com/
 
 # Git
 
