@@ -201,5 +201,9 @@ trim_trailing_whitespace = true    // 是否删除行尾的空格
 [Circle CI](http://circleci.com/)
 
 
+## github
 
-
+https://badge.fury.io/for/js
+https://nodei.co/
+http://shields.io/
+https://github.com/fehmicansaglam/progressed.io
