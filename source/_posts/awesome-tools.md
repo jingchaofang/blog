@@ -18,6 +18,10 @@ http://ke.jikexueyuan.com/zhiye/web/
 ## coding
 
 
+### css3
+
+https://www.w3.org/TR/css-cascade-3/
+
 ### less
 
 http://lesscss.org/
@@ -64,6 +68,11 @@ https://nodejs.org/zh-cn/
 http://nodejs.cn/
 http://www.runoob.com/nodejs/nodejs-tutorial.html
 
+### npm
+
+https://www.npmjs.com/
+https://www.npmjs.com.cn/
+
 ### rollup
 
 https://rollupjs.org/
@@ -109,3 +118,33 @@ https://developers.google.cn/web/fundamentals/web-app-manifest/?hl=zh-cn
 https://developers.google.cn/web/fundamentals/push-notifications/?hl=zh-cn
 
 
+### unit test framework
+
+https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#JavaScript
+
+
+### karma
+
+https://github.com/karma-runner/karma
+
+https://www.jianshu.com/p/6726c0410650
+
+### mocha
+
+https://mochajs.org/
+
+https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00147203593334596b366f3fe0b409fbc30ad81a0a91c4a000
+
+http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html
+
+https://www.jianshu.com/p/9c78548caffa
+
+### chai
+
+http://chaijs.com/
+
+https://www.jianshu.com/p/f200a75a15d2
+
+### codecov
+
+https://codecov.io/
