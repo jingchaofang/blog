@@ -59,6 +59,12 @@ subl . -a
 
 http://www.sublimecodeintel.com/
 
+#### sublimelinter
+
+https://github.com/SublimeLinter/SublimeLinter
+
+https://segmentfault.com/a/1190000004169261
+
 # Git
 
 https://git-scm.com/
