@@ -3,6 +3,14 @@ title: Awesome Tools
 date: 2017-12-16 00:04:17
 ---
 
+## Best Free Apps For Mac
+
+http://xclient.info/
+
+### heroku
+
+https://www.heroku.com/
+
 ## education online video
 
 https://www.pluralsight.com/
@@ -68,6 +76,12 @@ https://nodejs.org/zh-cn/
 http://nodejs.cn/
 http://www.runoob.com/nodejs/nodejs-tutorial.html
 https://github.com/alsotang/node-lessons
+https://github.com/sindresorhus/awesome-nodejs
+
+### expressjs
+
+https://expressjs.com/zh-cn/
+https://github.com/expressjs/express
 
 ### npm
 
