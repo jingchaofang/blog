@@ -15,6 +15,12 @@ https://www.heroku.com/
 
 https://www.mongodb.com/
 
+### pug(jade)
+
+https://pugjs.org/api/getting-started.html
+
+https://pug.bootcss.com/api/getting-started.html
+
 ## education online video
 
 https://www.pluralsight.com/
