@@ -108,7 +108,7 @@ https://www.npmjs.com.cn/
 ### rollup
 
 https://rollupjs.org/
-https://rollupjs.org/zh
+http://www.rollupjs.com/
 
 ### gulp
 
