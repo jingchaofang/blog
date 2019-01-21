@@ -9,7 +9,7 @@ My hexo blog source
 ## 常用命令
 
 ```
-hexo new <title>  创建文章
+hexo new <title> 创建文章
 hexo new draft <title> 创建草稿
 hexo publish <title> 草稿发布为文章
 hexo server 本地预览服务
@@ -17,7 +17,6 @@ hexo deploy 部署，持续集成自动触发
 ```
 
 ## 心路历程
-
 
 ## 参考
 
