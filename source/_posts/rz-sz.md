@@ -1,9 +1,8 @@
 ---
-title: rz-sz
+title: rz sz
 date: 2019-01-21 18:57:46
 tags:
 ---
-
 
 rz(receive Zmodem)
 sz(send Zmodem)
@@ -50,10 +49,12 @@ sudo chmod 777 /usr/local/bin/iterm2-*
 Regular expression: \*\*B0100
 Action: Run Silent Coprocess
 Parameters: /usr/local/bin/iterm2-send-zmodem.sh
+Instant: checked
 
 Regular expression: \*\*B00000000000000
 Action: Run Silent Coprocess
 Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
+Instant: checked
 ```
 
 ## 使用rz,sz命令
