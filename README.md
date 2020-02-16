@@ -9,6 +9,7 @@ My hexo blog source
 ## 常用命令
 
 ```
+npm install hexo-cli -g
 hexo new <title> 创建文章
 hexo new draft <title> 创建草稿
 hexo publish <title> 草稿发布为文章

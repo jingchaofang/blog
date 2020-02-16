@@ -4,6 +4,10 @@ date: 2018-01-18 15:31:38
 tags:
 ---
 
+本文详细描述了promise，应用场景及前后处理
+
+解决痛点回调函数嵌套过多
+
 ## Promise 的含义
 
 Promise是异步编程的一种解决方案，比传统的解决方案`回调函数`和`事件`更合理和更强大。它由社区最早提出和实现，ES6将其写进了语言标准，统一了用法，原生提供了`Promise`对象。
@@ -982,4 +986,8 @@ Promise.try(database.users.get({id: userId}))
 
 ## 参考
 
-http://es6.ruanyifeng.com/#docs/promise
+[JavaScript标志内置对象Promise](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+
+[使用promise](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Using_promises)
+
+[阮一峰Promise对象](http://es6.ruanyifeng.com/#docs/promise)

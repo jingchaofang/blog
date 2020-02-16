@@ -6,6 +6,8 @@ tags:
 
 ## Deep Copy Shallow Copy
 
+https://github.com/pvorb/clone
+
 ### 数据类型
 
 数据分为基本数据类型(String, Number, Boolean, Null, Undefined, Symbol)和对象数据类型。
@@ -154,7 +156,7 @@ obj2.a.b // 2
 let arr = [1, 3, {username: 'kobe'}];
 let arr2 = arr.concat();    
 arr2[2].username = 'wade';
-console.log(arr); // [1, 3, {username: "kobe"}]
+console.log(arr); // [1, 3, {username: "wade"}]
 ```
 
 4.Array.prototype.slice()
@@ -162,7 +164,7 @@ console.log(arr); // [1, 3, {username: "kobe"}]
 let arr = [1, 3, {username: ' kobe'}];
 let arr3 = arr.slice();
 arr3[2].username = 'wade';
-console.log(arr); // [1, 3, {username: "kobe"}]
+console.log(arr); // [1, 3, {username: "wade"}]
 ```
 
 关于Array的slice和concat方法的补充说明：Array的slice和concat方法不修改原数组，只会返回一个浅复制了原数组中的元素的一个新数组。
@@ -202,7 +204,7 @@ let arr = [1, 3, {username: 'kobe'}, function(){}];
 let arr4 = JSON.parse(JSON.stringify(arr));
 arr4[2].username = 'duncan';
 console.log(arr); // [1, 3, {username: 'kobe'}, function(){}]
-console.log(arr, arr4); // [1, 3, {username: 'duncan'}, null]
+console.log(arr4); // [1, 3, {username: 'duncan'}, null]
 ```
 这是因为JSON.stringify()方法是将一个JavaScript值(对象或者数组)转换为一个 JSON字符串，不能接受函数。
 
